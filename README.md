@@ -38,6 +38,7 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://michaelomoniyi.github.io/four-card-feature-section-master/)
 
 ## My process
+I started with the structuring of the mobile view before structuring the desktop view.
 
 ### Built with
 
