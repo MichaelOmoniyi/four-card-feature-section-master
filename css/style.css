@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    padding: 5rem 2rem;
+}
+.container>h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.header {
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: hsl(234, 12%, 34%);
+}
+.topParagraph {
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 1.19rem;
+}
+.cardContainer {
+    width: 100%;
+    line-height: 1.5;
+}
+.cardContainer h2{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.cardContainer p {
+    margin-bottom: 3rem;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+
+}
+.cardImages {
+    text-align: right;
+}
+.card1 {
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 15px hsl(229, 6%, 66%);
+}
+.card2 {
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 15px hsl(229, 6%, 66%);
+}
+.card3 {
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 15px hsl(229, 6%, 66%);
+}
+.card4 {
+    border-top: 3px solid hsl(212, 86%, 64%);
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    box-sizing: border-box;
+    box-shadow: 1px 5px 15px hsl(229, 6%, 66%);
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 1rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media (min-width: 1440px) {
+    .cardContainer {
+        display: flex;
+        height: 70vh;
+    }
+    .container>h2{
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    .header{
+        font-size: 2.7rem;
+    }
+    .topParagraph{
+        padding-left: 27rem;
+        padding-right: 27rem;
+        margin-bottom: 2rem;
+    }
+    .cardContainer p{
+        font-size: 1.2rem;
+    }
+    .card1{
+        width: 33%;
+        margin-left: 2rem;
+        height: 48%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .section{
+        width: 33%;
+        margin: 0px 3rem;
+        height: 100%;
+    }
+    .card4{
+        width: 33%;
+        height: 48%;
+        margin-right: 2rem;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
