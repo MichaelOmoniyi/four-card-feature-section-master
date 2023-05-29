@@ -94,13 +94,3 @@ I learnt another use of css flexbox
 ### Continued development
 
 I'd love to master the use of flexbox better
-
-### Useful resources
-
-- [Example resource 1](https://www.w3schools.com) - This helped me for understand flexbox syntax.
-
-## Author
-
-- Website - [Michael Omoniyi](https://github.com/MichaelOmoniyi)
-- Frontend Mentor - [@MichaelOmoniyi](www.frontendmentor.io/profile/MichaelOmoniyi)
-- Twitter - [@Omons_Mikel](https://twitter.com/Omons_Mikel)
