@@ -89,10 +89,10 @@ body {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-@media (min-width: 1440px) {
+@media (min-width: 1094px) {
     .cardContainer {
         display: flex;
-        height: 70vh;
+        height: 100%;
     }
     .container>h2{
         line-height: 1.5;
@@ -128,5 +128,9 @@ body {
         margin-right: 2rem;
         margin-top: auto;
         margin-bottom: auto;
+    }
+    .attribution
+    {
+        margin-bottom: 1.5rem;
     }
 }
